@@ -1,0 +1,69 @@
+<!-- calculator.html -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CourSys - Formula Tester</title>
+    <link rel="stylesheet" href="calculator.css" defer>
+    <script src="js/calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>
+      <br>
+      Grade Calculator
+    </h1>
+    <div class="act">
+      <h2>
+        Activities
+      </h2>
+      <h3>
+        <br>
+        Give grades to the numberic activities:
+      </h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Short Name</th>
+          <th>Weight</th>
+          <th>Grade</th>
+          <th>Percent</th>
+        </tr>
+        <tr>
+          <th>Activity 1</th>
+          <th>A1</th>
+          <th><input type="number" id="A1W"></th>
+          <th><input type="number" id="A1G1"> /<br> <br><input type="number"id="A1G2"></th>
+          <th id = "percent1"></th>
+        </tr>
+        <tr>
+          <th>Activity 2</th>
+          <th>A2</th>
+          <th><input type="number" id="A2W"></th>
+          <th><input type="number" id="A2G1"> /<br> <br><input type="number" id="A2G2"></th>
+          <th id = "percent2"></th>
+        </tr><tr>
+          <th>Activity 3</th>
+          <th>A3</th>
+          <th><input type="number" id="A3W"></th>
+          <th><input type="number" id="A3G1"> /<br> <br><input type="number" id=A3G2></th>
+          <th id = "percent3"></th>
+        </tr><tr>
+          <th>Activity 3</th>
+          <th>A3</th>
+          <th><input type="number" id="A4W"></th>
+          <th><input type="number" id="A4G1"> /<br> <br><input type="number" id="A4G2"></th>
+          <th id = percent4></th>
+        </tr>
+      </table>
+      <h4>Result</h4>
+      <p id = "mean0" style="color=:red;font-size:30px; position:relative; left:20px; bottom:20px"></p>
+      <p id = "weight" style="color=:red;font-size:30px; position:relative; left:20px; bottom:30px"></p>
+      <button id="meanbutton" class="button1">MEAN</button>
+      <button id="weightedbutton"class="button2">WEIGHTED</button>
+    </div>
+    <br>
+    <br>
+    </div>
+  </body>
+</html>

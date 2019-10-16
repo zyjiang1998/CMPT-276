@@ -1,0 +1,43 @@
+body{
+  background-image: url("background.jpg");
+}
+.button1{
+  border: none;
+  color: blue;
+  position:relative;
+  left:30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button2{
+  border: none;
+  color: blue;
+  position:relative;
+  left:60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button3{
+  border: none;
+  color: blue;
+  position:relative;
+  down:60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button4{
+  border: none;
+  color: blue;
+  position:relative;
+  down:60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button5{
+  border: none;
+  color: blue;
+  position:relative;
+  left:100px;
+  font-size: 16px;
+  cursor: pointer;
+}

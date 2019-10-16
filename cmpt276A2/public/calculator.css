@@ -1,0 +1,87 @@
+/* calculator.css */
+/* <body backgroundgcolor="#990000"> */
+body{
+  background-color: #7b161d;
+}
+  div.box{
+    margin: 30px;
+    border-top-style:solid;
+    border-top-color:#3d3935;
+    border-top-width:30px;
+    border-bottom-style:solid;
+    border-bottom-color:#3d3935;
+    border-bottom-width:30px;
+    background-color: #FFFFFF;
+    position: relative;
+    top:-30px;
+  }
+  div.act{
+    width: 950px;
+    height: 775px;
+    background-color: #e9eff1;
+    position:relative;
+    right:-20px;
+  }
+  h1{
+    position:relative;
+    left:20px;
+    font-family: "Arial",Arial,sans-serif;
+    font-weight: normal;
+  }
+  h2{
+    color: #D41212;
+    position:relative;
+    left:20px;
+    top:20px;
+  }
+  h3{
+    position:relative;
+    right:-20px;
+    font-weight: lighter;
+  }
+  h4{
+    position:relative;
+    right:-20px;
+    font-weight: bold;
+    color:#D41212;
+    font-size: 23px;
+  }
+  table{
+    font-family:"Arial",Arial,sans-serif;
+    border-collapse: collapse;
+    width:95%;
+    position:relative;
+    left:20px;
+  }
+  th,td{
+    border: 1px solid #cfcfcf;
+    text-align:left;
+    padding:6px;
+  }
+  tr:nth-child(1){
+    background-color:#DBDCDD;
+  }
+  input{
+    width:80px;
+    height: 25px;
+  }
+  .button1{
+    background-color: #D41212;
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    position:relative;
+    left:830px;
+    font-size: 16px;
+    cursor: pointer;
+   }
+   .button2{
+     background-color: #D41212;
+     border: none;
+     color: white;
+     padding: 7px 25px;
+     position:relative;
+     left:575PX;
+     font-size: 16px;
+     cursor: pointer;
+   }

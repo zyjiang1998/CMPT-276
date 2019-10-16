@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Display</title>
+    <link rel="stylesheet" href="stylesheets/home.css" defer>
+    <script src="js/tokimon.js" defer></script>
+  </head>
+  <body>
+      <table>
+        <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Fly</th>
+          <th>Fight</th>
+          <th>Fire</th>
+          <th>Water</th>
+          <th>Electric</th>
+          <th>Frozen</th>
+          <th>Total</th>
+          <th>Trainer</th>
+        </tr>
+        <% rows.forEach((r) =>{ %>
+        <tr>
+          <td><%=r.id%></td>
+          <td><%=r.name%></td>
+          <td><%=r.height%></td>
+          <td><%=r.weight%></td>
+          <td><%=r.fly%></td>
+          <td><%=r.fight%></td>
+          <td><%=r.fire%></td>
+          <td><%=r.water%></td>
+          <td><%=r.electric%></td>
+          <td><%=r.frozen%></td>
+          <td><%=r.total%></td>
+          <td><%=r.trainer_name%></td>
+          <% }); %>
+        </tr>
+      </table>
+      <br>
+      <button type="button" class="button4" id="displayButton">
+      <p><a href="/">back</a></p>
+      </button>
+  </body>
+</html>

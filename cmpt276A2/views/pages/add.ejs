@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Tokimon</title>
+    <link rel="stylesheet" href="stylesheets/home.css" defer>
+    <script type="text/javascript" src="js/tokimon.js" defer></script>
+  </head>
+  <body>
+    <button type="button" class="button1" name="button">
+      <p><a href="/">Back</a></p>
+    </button>
+    <h1> Add a Tokimon</h1>
+    <!-- <table action="/submit" method="post">
+      <tr>
+        <th>Name</th>
+        <th>Weight</th>
+        <th>Height</th>
+        <th>Fly</th>
+        <th>Fight</th>
+        <th>Fire</th>
+        <th>Water</th>
+        <th>Electric</th>
+        <th>Frozen</th>
+        <th>Total</th>
+        <th>Trainer's name</th>
+        </tr>
+        <tr>
+          <th><input type="text" id="name"></th>
+          <th><input type="number" id="weight"></th>
+          <th><input type="number" id="height"></th>
+          <th><input type="number" id="fly" min="0" value="0" max="100"></th>
+          <th><input type="number" id="fight" min="0" value="0" max="100"></th>
+          <th><input type="number" id="fire" min="0" value="0" max="100"></th>
+          <th><input type="number" id="water" min="0" value="0" max="100"></th>
+          <th><input type="number" id="electric" min="0" value="0" max="100"></th>
+          <th><input type="number" id="frozen" min="0" value="0" max="100"></th>
+          <th id="total"></th>
+          <th><input type="trainer" id="text"></th>
+        </tr>
+    </table> -->
+    <form id="form" action="/submit" method="post">
+      <label for="name">Tokimon's Name:</label>
+      <input type="text" name="name" placeholder="Tokimon's name" id ="name" required>
+      <label for="weight">Tokimon's Weight</label>
+      <input type="number" name="weight" placeholder="Tokimon's weight" id="weight" required>
+      <label for="height">Tokimon's Height</label>
+      <input type="number" name="height" placeholder="Tokimon's height" id="height" required>
+      <label for="fly">Fly ability:</label>
+      <input type="number" name="fly" id="fly" min="0" value="0" max="100" required>
+      <label for="fight">Fight ability:</label>
+      <input type="number" name="fight" id="fight" min="0" value="0" max="100" required>
+      <label for="fire">Fire ability:</label>
+      <input type="number" name ="fire" id="fire" min="0" value="0" max="100" required>
+      <label for="water">Water ability:</label>
+      <input type="number" name ="water" id="water" min="0" value="0" max="100" required>
+      <label for="electric">Electric ability:</label>
+      <input type="number" name ="electric" id="electric" min="0" value="0" max="100" required>
+      <label for="frozen">Frozen ability:</label>
+      <input type="number" name="frozen" id="frozen" min="0" value="0" max="100" required>
+      <label for="total">Total Ability:</label>
+      <input id="total" type="number" name="total" placeholder=0 min="0" max="600" readonly><br>
+      <label for="Trainer">Trainer's name</label>
+      <input type="text" name="Trainer" placeholder="Trainer's Name" required><br>
+      <button class="submitbutton" id="submitb" type="submit">submit</button>
+    </form>
+  </body>
+</html>
